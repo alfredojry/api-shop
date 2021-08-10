@@ -1,0 +1,31 @@
+{
+  "name": "api-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn --transpile-only src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.27.0",
+    "apollo-server": "^3.1.2",
+    "class-validator": "^0.13.1",
+    "graphql-fields": "^2.0.3",
+    "graphql-type-json": "^0.3.2",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/ws": "^7.4.7",
+    "prisma": "^2.27.0",
+    "ts-node": "^10.1.0",
+    "ts-node-dev": "^1.1.8",
+    "typegraphql-prisma": "^0.14.7",
+    "typescript": "^4.3.5"
+  }
+}
